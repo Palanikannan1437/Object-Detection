@@ -12,10 +12,7 @@ R=random.randint(0, 255)
 G=random.randint(0, 255)
 B=random.randint(0, 255)
 
-CLASSES = ["Background", "Aeroplane", "Bicycle", "Bird", "Boat",
-	"Bottle", "Bus", "Car", "Cat", "Chair", "Cow", "Diningtable",
-	"Dog", "Horse", "Motorbike", "Person", "Pottedplant", "Sheep",
-	"Sofa", "Train", "TVmonitor"]
+CLASSES = ["Face"]
 
 color=[(R,G,B) for i in CLASSES]
 
